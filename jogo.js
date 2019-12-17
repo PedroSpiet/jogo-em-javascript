@@ -10,3 +10,12 @@ function ajustaTamanhoPalcoJogo(){
 
 }
 
+var posicaoX = Math.floor(Math.random() * largura)
+var posicaoY = Math.floor(Math.random() * altura) 
+
+
+
+
+
+
+
