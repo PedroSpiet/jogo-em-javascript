@@ -15,13 +15,15 @@
 		</div>
 
 		<div class="cronometro">
-			Tempo restante: ??
+			Tempo restante: <span id="cronometro"></span>
 		</div>
 	</div>
 
 
 
 	<script>
+
+		document.getElementById('cronometro').innerHTML = tempo
 		setInterval(function() {
 			posicaoRandomica()
 		}, 1000)
