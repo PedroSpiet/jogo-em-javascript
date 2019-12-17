@@ -25,7 +25,7 @@
 				vidas++
 
 				if(vidas > 3){
-					alert('Você perdeu o jogo!')
+					window.location.href = "fim_de_jogo.html"
 				}
 
 
